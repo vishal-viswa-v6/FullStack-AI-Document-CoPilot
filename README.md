@@ -38,7 +38,7 @@ Follow these steps to set up and run `industrial-copilot` locally.
 * [Git](https://git-scm.com/downloads)
 * **Google API Key**: You'll need a Google API Key with access to the Gemini API. [Get your API Key here](https://aistudio.google.com/app/apikey).
 
-#### **1. Clone the Repository**
+#### **Clone the Repository**
 
 #### Create a virtual environment 
 python -m venv venv
