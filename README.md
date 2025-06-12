@@ -38,27 +38,27 @@ Follow these steps to set up and run `industrial-copilot` locally.
 * [Git](https://git-scm.com/downloads)
 * **Google API Key**: You'll need a Google API Key with access to the Gemini API. [Get your API Key here](https://aistudio.google.com/app/apikey).
 
-# **1. Clone the Repository**
+#### **1. Clone the Repository**
 
-# Create a virtual environment (recommended)
+#### Create a virtual environment 
 python -m venv venv
 source venv/bin/activate # On Windows: .\venv\Scripts\activate
 
-# Navigate to the backend directory
+#### Navigate to the backend directory
 cd backend
 
-# Install dependencies
+#### Install dependencies
 pip install -r requirements.txt
 
-# Create a .env file and add your Google API Key
-# (replace YOUR_GOOGLE_API_KEY_HERE with your actual key)
+#### Create a .env file and add your Google API Key
+#### (replace YOUR_GOOGLE_API_KEY_HERE with your actual key)
 echo "GOOGLE_API_KEY=YOUR_GOOGLE_API_KEY_HERE" > .env
 
-# Run the backend server
+#### Run the backend server
 uvicorn main:app --reload --port 8000
 
-# Install dependencies
+#### Install dependencies
 npm install # or yarn install
 
-# Run the frontend development server
+#### Run the frontend development server
 npm run dev # or yarn dev
