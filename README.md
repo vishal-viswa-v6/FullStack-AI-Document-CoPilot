@@ -1,5 +1,5 @@
 # FullStack-AI-Document-CoPilot
-## Intelligent Document Analysis: A System using natural language, local LLM and Google API.
+## Basic Intelligent Document Analysis: A System using natural language, local LLM and Google API.
 
 ### **Features**
 
